@@ -54,7 +54,7 @@ class Game:
             self.draw_options()
 
             pygame.display.update()
-            self.clock.tick(60)
+            self.clock.tick(120)
 
     def draw_options(self):
         # Calculate scaled dimensions for background image based on aspect ratio

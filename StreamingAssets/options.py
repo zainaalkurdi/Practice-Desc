@@ -1868,8 +1868,8 @@ class Options:
                     symbol_rect = pygame.Rect(col * 300, row * 300, 300, 300)
                     if self.is_mouse_over_symbol(symbol_rect):
                         self.drop[row][col] = None
-                        self.selected_symbol = None
-            
+
+                        
     def update(self, delta_time):
         self.separator()
         drop_surf = self.create_drop_surf()
